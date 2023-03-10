@@ -1,0 +1,258 @@
+* {
+    font-family: Unbounded;
+    src: url(https://fonts.google.com/specimen/Unbounded?preview.text=hello%20this%20is%20an%20about%20page%20about%20yoga%20and%20the%20gym%20hello%20this%20is%20an%20about%20page%20about%20yoga%20and%20the%20gym%20hello%20this%20is%20an%20about%20page%20about%20yoga%20and%20the%20gym%20hello%20this%20is%20an%20about%20page%20about%20yoga%20and%20the%20gym%20hello%20this%20is%20an%20about%20page%20about%20yoga%20and%20the%20gym&preview.text_type=custom&category=Serif,Sans+Serif,Display,Monospace);
+    /* border: solid red 1px; */
+}
+
+/* home/global css */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(253, 192, 185);
+}
+
+.navlist {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: -20px;
+}
+
+.nav-item {
+    border: solid rgb(255, 255, 176) 1px;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: rgb(252, 230, 199);
+}
+
+.navbar-company {
+    margin-left: 10px;
+    margin-top: 2px;
+    font-size: 25px;
+}
+
+nav {
+    background-color: rgb(253, 192, 185);
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    height: 65px;
+    border-bottom: solid rgb(255, 255, 176) 1px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    position:fixed;
+    margin-top: -150px;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(85, 35, 35)
+}
+
+a:hover {
+    color:rgb(96, 96, 216)
+}
+
+.header {
+    z-index: 1;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+    margin-top: 10%;
+    color:rgb(253, 192, 185);
+    text-shadow: 1px 2px 3px rgb(40, 40, 78);
+}
+
+.classes-container {
+    background-color: rgb(253, 192, 185);
+}
+
+.classes-table {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    color: rgb(104, 38, 38);
+}
+
+td, th {
+    border-bottom: solid rgb(255, 255, 176) 1.5px;
+    text-align: left;
+    padding: 5px;
+}
+
+footer {
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.bottom {
+    background-color: rgb(209, 145, 138);
+    color: rgb(30, 32, 30);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    justify-content: space-evenly;
+}
+
+.map-img {
+    height:150px;
+    width: auto;
+}
+
+.foothead {
+    font-size: 20px;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font-size: 12px;
+}
+
+.footpages {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font-size: 12px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font-size: 12px;
+}
+
+.tiny {
+    margin: 5px;
+}
+
+/* about us */
+
+.about-para {
+    background-color: rgb(253, 192, 185);
+    padding-top: 30px;
+    margin-top: -150px;
+    margin-bottom: 0px;
+    height: 150px;
+    text-align: center;
+}
+
+/* shop */
+.shop {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10%;
+}
+
+.wrapper-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-gap: 50px;
+}
+
+.box {
+    max-width: 300px;
+    height:auto;
+    background-color: rgb(253, 192, 185);
+    border: solid rgb(255, 255, 176)3px;
+    border-radius: 4px;    
+}
+
+.grid-image {
+    object-fit: cover;
+    max-width: 300px;
+    height: 300px;
+}
+
+.grid-text {
+    text-align: center;
+}
+
+/* Sign In */
+.sign-in-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sign-in-box {
+    margin-top: -35em;
+    margin-bottom:auto;
+    padding: 4%;
+    background-color:rgba(252, 230, 199, 0.5);
+    border: solid rgb(255, 255, 176) 2px;
+    border-radius: 4px;
+}
+
+.sign-in-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box {
+    margin: 2%;
+    padding: 3%;
+    border: solid rgb(255, 255, 176) 2px;
+    border-radius: 4px;
+}
+
+.sign-in-button {
+    margin: 3%;
+    padding: 3%;
+    background-color:rgb(252, 230, 199);
+    border: solid rgb(255, 255, 176) 2px;
+    border-radius: 4px;
+}
+
+/* sign out page */
+.sign-out-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sign-out-box {
+    display:flex;
+    flex-direction: row;
+    margin-top: -35em;
+    margin-bottom:auto;
+    padding: 4%;
+    background-color:rgba(252, 230, 199, 0.5);
+    border: solid rgb(255, 255, 176) 2px;
+    border-radius: 4px;
+}
+
+.sign-out-button {
+    width: 70%;
+    margin: 3%;
+    padding: 3%;
+    background-color:rgb(252, 230, 199);
+    border: solid rgb(255, 255, 176) 2px;
+    border-radius: 4px;
+}
+
+/* signed out */
+.go-home-button {
+    width: 100%;
+    margin: 10%;
+    padding: 10%;
+    background-color:rgb(252, 230, 199);
+    border: solid rgb(255, 255, 176) 2px;
+    border-radius: 4px;
+}
